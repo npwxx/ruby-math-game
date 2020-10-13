@@ -8,6 +8,7 @@ class Turn
       puts "#{player} Yep! You are correct!"
     else 
       puts "#{player} Seriously? No!"
+      player.lives -= 1
     end
   end
 
